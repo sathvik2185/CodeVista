@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies DataBase</title>
+    <style>
+        body{
+            justify-content: center;
+            align-items: center;
+            background-color: bisque;
+        }
+        h1{
+            text-align: center;
+            color: rgb(6, 11, 41);
+        }
+        th{
+            color: rgb(0, 0, 0);
+            background-color: rgb(99, 98, 98);
+        }
+        table{
+            border: 1px solid black;
+            width: 900px;
+            height: auto;
+            margin: auto;
+            table-layout: auto;
+            justify-content: center;
+            align-items: center;
+            border-collapse: collapse;
+            background-color: antiquewhite;
+        }
+        th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+            align-items: center;
+            text-align: center;
+
+        }
+        th :nth-child(2){
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Babu Lake Babu KALYAN BABU Movie DataBase</h1>
+    <table>
+        <tr>
+            <th>S.No</th>
+            <th>Movie Name</th>
+            <th>Budget(rupees)</th>
+            <th>Collection(rupees)</th>
+            <th>Movie Status</th>
+            <th>Poster</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Akkada Ammayi Ikkada Abbayi</td>
+            <td>2Cr</td>
+            <td>3Cr</td>
+            <td>Hit</td>
+            <td><img src="PSPK.jpg" alt="PSPK"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Gokulam lo Seetha</td>
+            <td>3Cr</td>
+            <td>4Cr</td>
+            <td>Flop</td>
+            <td><img src="Gokulam lo Seetha.jpg" alt="Gokulam lo Seetha"></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Suswagatham</td>
+            <td>8Cr</td>
+            <td>21Cr</td>
+            <td>Block Buster</td>
+            <td><img src="Suswagatham.jpg" alt="Suswagatham"></td>
+        </tr>
+         <tr>
+            <td>4</td>
+            <td>Tholi Prema </td>
+            <td>10Cr</td>
+            <td>25Cr</td>
+            <td>HIT</td>
+            <td><img src="Tholi Prema .jpg" alt="Tholi Prema "></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Thammudu </td>
+            <td>12Cr</td>
+            <td>20Cr</td>
+            <td>HIT</td>
+            <td><img src="Thammudu .jpg" alt="Thammudu "></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Badri </td>
+            <td>13Cr</td>
+            <td>32Cr</td>
+            <td>Block Buster</td>
+            <td><img src="Badri .jpg" alt="Badri "></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Kushi </td>
+            <td>15Cr</td>
+            <td>37Cr</td>
+            <td>HIT</td>
+            <td><img src="Kushi .jpg" alt="Kushi"></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Johnny </td>
+            <td>22Cr</td>
+            <td>25Cr</td>
+            <td>Average</td>
+            <td><img src="Johnny.jpg" alt="Johnny"></td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Gudumba Shankar</td>
+            <td>12Cr</td>
+            <td>10Cr</td>
+            <td>Average</td>
+            <td><img src="Gudumba Shankar.jpg" alt="Gudumba Shankar"></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Balu</td>
+            <td>10Cr</td>
+            <td>15Cr</td>
+            <td>Average</td>
+            <td><img src="Balu .jpg" alt="Balu"></td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Bangaram</td>
+            <td>15Cr</td>
+            <td>26Cr</td>
+            <td>Hit</td>
+            <td><img src="Bangaram.jpg" alt="Bangaram"></td>
+        </tr>
+         <tr>
+            <td>12</td>
+            <td>Annavaram </td>
+            <td>14Cr</td>
+            <td>24Cr</td>
+            <td>Flop</td>
+            <td><img src="Annavaram .jpg" alt="Annavaram "></td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>Jalsa</td>
+            <td>18Cr</td>
+            <td>56Cr</td>
+            <td>Block Buster</td>
+            <td><img src="Jalsa.jpg" alt="Jalsa"></td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>Komaram Puli</td>
+            <td>25Cr</td>
+            <td>50Cr</td>
+            <td>Super Hit</td>
+            <td><img src="Komaram Puli.jpg" alt="Komaram Puli"></td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>Teen Maar </td>
+            <td>50Cr</td>
+            <td>47Cr</td>
+            <td>Flop</td>
+            <td><img src="Teen Maar .jpg" alt="Teen Maar "></td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>Panjaa </td>
+            <td>25Cr</td>
+            <td>97Cr</td>
+            <td>Block Buster</td>
+            <td><img src="Panjaa .jpg" alt="Panjaa "></td>
+        </tr>
+         <tr>
+            <td>17</td>
+            <td>Gabbar Singh </td>
+            <td>20Cr</td>
+            <td>57.5Cr</td>
+            <td>Industry Hit</td>
+            <td><img src="Gabbar Singh .jpg" alt="Gabbar Singh "></td>
+        </tr>
+         <tr>
+            <td>18</td>
+            <td>Cameraman Gangatho Rambabu</td>
+            <td>30Cr</td>
+            <td>74.3Cr</td>
+            <td>Hit</td>
+            <td><img src="Cameraman Gangatho Rambabu.jpg" alt="Cameraman Gangatho Rambabu"></td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>Attarintiki Daredi </td>
+            <td>400Cr</td>
+            <td>413.9Cr</td>
+            <td>Below Average</td>
+            <td><img src="Attarintiki Daredi .jpg" alt="Attarintiki Daredi "></td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>Gopala Gopala</td>
+            <td>300Cr</td>
+            <td>148.4Cr</td>
+            <td>Disaster</td>
+            <td><img src="Gopala Gopala.jpg" alt="Gopala Gopala"></td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td>Sardaar Gabbar Singh</td>
+            <td>500Cr</td>
+            <td>353.3Cr</td>
+            <td>Flop</td>
+            <td><img src="Sardaar Gabbar Singh.jpg" alt="Sardaar Gabbar Singh"></td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td>Katamarayudu</td>
+            <td>350Cr</td>
+            <td>614.6Cr</td>
+            <td>Above Average</td>
+            <td><img src="Katamarayudu.jpg" alt="Katamarayudu"></td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td>Agnyaathavaasi</td>
+            <td>450Cr</td>
+            <td>1019.8Cr</td>
+            <td>Super Hit</td>
+            <td><img src="Agnyaathavaasi.jpg" alt="Agnyaathavaasi"></td>
+        </tr>
+
+    </table>
+</body>
+</html>
