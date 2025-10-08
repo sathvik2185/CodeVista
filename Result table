@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My result</title>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+            height: 900px;
+        }
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            align-items: center;
+            margin: auto;
+            width: 80%;
+            height: auto;
+        }
+        th, td{
+            border: 1px solid black;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            color: red;
+        }
+        h4{
+            margin: auto;
+            text-align: center;
+            margin-right: 680px;
+        }
+        h3{
+            margin-left: 220px;
+        }
+        img{
+            width: 180px;
+            float: right;
+            padding-right: 300px;
+        }
+        th{
+            background-color: rgb(119, 93, 124);
+        }
+        td:nth-child(7){
+            background-color: rgb(63, 164, 63);
+        }
+    </style>
+</head>
+<body>
+    <h1>MOHAN BABU UNIVERSITY</h1>
+    <img src="mine.jpg.jpg"  alt="My Pic">
+    <h3>Full Name: Dasari Sai Sathvik</h3>
+    <h3>Register Number: 23102A020072</h3>
+    <h3>Section: CS-02</h3>
+    <h3>Department: DATA SCIENCE</h3>
+    <h3>Batch: 2023-2027</h3>
+    <table>
+        <caption>III-Semester RESULTS(NOV - 2024)</caption>
+        <tr>
+            <th>SEMESTER</th>
+            <th>COURSE CODE</th>
+            <th>COURSE NAME</th>
+            <th>CREDIT</th>
+            <th>GRADE POINT</th>
+            <th>GRADE</th>
+            <th>RESULT STATUS</th>
+        </tr>
+         <tr>
+            <td>III-Semester - Batch-II</td>
+            <td>22MM101405</td>
+            <td>Numerical Methods, Probability and Statistics</td>
+            <td>3</td>
+            <td>10</td>
+            <td>O</td>
+            <td>Pass</td>
+        </tr>
+         <tr>
+            <td>III-Semester - Batch-II</td>
+            <td>22AI101019M</td>
+            <td>FOUNDATIONS OF OPERATING SYSTEMS</td>
+            <td>3</td>
+            <td>10</td>
+            <td>O</td>
+            <td>Pass</td>
+        </tr>
+         <tr>
+            <td>III-Semester - Batch-II</td>
+            <td>22AI101019M</td>
+            <td>FOUNDATIONS OF OPERATING SYSTEMS</td>
+            <td>3</td>
+            <td>10</td>
+            <td>O</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>III-Semester - Batch-II</td>
+            <td>22CS102002</td>
+            <td>PYTHON PROGRAMMING</td>
+            <td>4</td>
+            <td>10</td>
+            <td>O</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>III-Semester - Batch-II</td>
+            <td>22CS102003</td>
+            <td>DATA STRUCTURES</td>
+            <td>4</td>
+            <td>9</td>
+            <td>A+</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>III-Semester - Batch-II</td>
+            <td>22CB102002</td>
+            <td>COMPUTER NETWORKS</td>
+            <td>4</td>
+            <td>9</td>
+            <td>A+</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>III-Semester - Batch-II</td>
+            <td>22LG201701</td>
+            <td>PERSONALITY DEVELOPMENT</td>
+            <td>3</td>
+            <td>10</td>
+            <td>O</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>III-Semester - Batch-II</td>
+            <td>22CM101402M</td>
+            <td>PRINCIPLES OF BUSINESS ECONOMICS AND ACCOUNTANCY</td>
+            <td>3</td>
+            <td>10</td>
+            <td>O</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>III-Semester - Batch-II</td>
+            <td>22AB107601</td>
+            <td>NSS ACTIVITIES*</td>
+            <td>2</td>
+            <td>10</td>
+            <td>O</td>
+            <td>Pass</td>
+        </tr>
+    </table>
+    <h4>Credits Registered: 29 &nbsp;&nbsp;  Credits Completed: 29</h4>
+</body>
+</html>
