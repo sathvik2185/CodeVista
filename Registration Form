@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+    height: 100vh;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+    background: url(sathvik.jpg);
+    background-size: cover;
+    backdrop-filter: blur(8px);
+
+}
+h2{
+    color: rgba(0, 0, 0, 0.329);
+    filter: contrast(10px);
+    text-shadow: 10px rgb(24, 157, 169) sandybrown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+
+
+.Registration{
+    justify-content: center;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin: auto;
+    box-shadow: 0 0 10px rgb(62, 174, 105);
+    border-radius: 10px;
+    margin-top: 100px;
+    width: 300px;
+    margin: auto;
+    height: 450px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+    background-color: rgba(245, 245, 245, 0.594);
+}
+.mail, .user, .pass, .name{
+    
+    height: 25px;
+    border-radius: 3px;
+    max-height: max-content;
+    size: 10%;
+    margin: 0;
+    margin-top: 0;
+    padding: 5px;
+    border: 2px solid teal;
+    margin-bottom: 5px;
+    filter: drop-shadow(100px);
+}
+label{
+    display: block;
+    margin-bottom: 4px;
+}
+.term{
+    size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    justify-items: baseline;
+    margin-bottom: 1px;
+}
+.block{
+    display: flex;
+    gap: 10px;
+    margin-top: 0;
+    justify-items: center;
+}
+.submit, .reset{
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 6px;
+    justify-content: center;
+    justify-items: center;
+}
+.submit:hover, .reset:hover{
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+    </style>
+</head>
+<body>
+    <form action="https://www.mbu.asia/">
+        <div class="Registration">
+            <h2>Welcome to Registration Form</h2>
+            <label for="mail">Enter Email Address</label>
+            <input type="email"  id="mail" class="mail" placeholder="Email" required>
+            <br>
+            <label for="name">Full Name</label>
+            <input type="text" class="name" id="name" placeholder="Full Name" required>
+            <br>
+            <label for="user">Create Your own Username</label>
+            <input type="text" class="user" id="user" placeholder="Username" required>
+            <br>
+            <label for="pass">Create Your own password</label>
+            <input type="password" class="pass" id="pass" placeholder="Password" required>
+            <br>
+        <div class="term">
+            <input type="checkbox" class="terms" id="terms" required>
+            <label for="terms">Terms & Conditions</label>
+            <br>
+        </div>
+        <div class="block">
+            <input type="submit" class="submit" id="submit" value="Register">
+            <input type="reset" class="reset" id="reset">
+        </div>
+        </div>
+    </form>
+</body>
+</html>
