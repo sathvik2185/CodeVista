@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mov.css">
+    <title>Moview Review</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+header h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+header p {
+    font-size: 15px;
+    color: #ae2828;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: rgba(255, 228, 196, 0.156);
+}
+header a:hover {
+    background-color: #efcc06ae; /* Tomato color hover */
+    color: #ffffffeb;
+}
+div {
+    max-width: 1300px;
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.img{
+    float: right;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    display: block;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 270px;
+    right: 150px;
+}
+button{
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: blue;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    width: 20%;
+    height: 50px;
+}
+button:hover{
+    background-color: rgb(105, 105, 181);
+}
+ul{
+    padding-left: 20px;
+}
+h2{
+    color: brown;
+}
+h3{
+    color: #d7c81c;
+}
+.hit{
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Movie Review</h1>
+    <p>Movie review page</p>
+    <a href="#Movie-Details">Movie-Details</a>
+    <a href="#cast">Cast & Crew</a>
+    <a href="#budget">budget</a>
+    <a href="#rating">Rating</a>
+    </header>
+    <div class="Movie-Details" id="Movie-Details">
+    <h2>Movie Details</h2>
+    <img src="dill.jpg" alt="Ojas Ghambeera" class="img">
+    <p><strong>Movie Name: </strong>Ojas Ghambeera</p>
+    <p><strong>Year of release: </strong>2025</p>
+    <p><strong>Genre: </strong>,Gangsta,Adventerous,Tragic</p>
+    <p><strong>date of release: </strong>25 Sep 2025</p>
+    <p><strong>Director: </strong>Sujith</p>
+    <p><strong>Writer: </strong>Sujtith</p>
+    <p><strong>Producer: </strong>sujith</p>
+    </div>
+    <div class="cast" id="cast">
+    <h2>Casting</h2>
+    <ul>
+        <li><strong>Power Star Pawan Kalyan as</strong>Ojas Ghambeera</li>
+        <li><strong>Priyanka Moahn As </strong>Suvvi</li>
+        <li><strong>Himesh Reshammiya As </strong>OMI</li>
+    </ul>
+    </div>
+    <div class="budget" id="budget">
+        <h2>Budget & Collection</h2>
+        <h3><bold>Budget: </bold><i>30 Crore</i></h3>
+        <h3>Collection: <i>1000 Crore</i></h3>
+    </div>
+    <div class="rating" id="rating">
+        <h2>Category Wise Rating</h2>
+         <label>Direction:</label>
+        <select name="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select> <br>
+         <label>Acting:</label>
+        <select name="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select> <br>
+         <label>Editing:</label>
+        <select name="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>  <br>
+         <label>Story & Screenplay:</label>
+        <select name="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>  <br>
+         <label>Visuals & Graphics:</label>
+        <select name="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+    <div class="rat">
+        <label>Overall Rating (1 to 5):</label>
+        <select name="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br><br>
+         <textarea rows="10" cols="100" >Write your review</textarea>
+         <br>
+         <button>Submit</button>  
+    </div>
+</body>
+</html>
