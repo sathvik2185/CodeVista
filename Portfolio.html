@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+      margin: 0;
+      background-color: rgb(121, 120, 120);
+      color: #e4e4e4;
+      text-align: center;
+    }
+    header {
+      background: rgba(99, 102, 241, 0.9);
+      background: linear-gradient(90deg, rgba(214, 214, 214, 0.9), rgba(90, 90, 90, 0.9));
+      color: rgb(0, 0, 0);
+      text-shadow: 3px 3px 9px rgba(0.7, 0, 0, 0.7);
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      text-shadow: 3px 3px 9px rgb(150, 150, 150);
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      opacity: 0.9;
+    }
+    nav {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      font-size: 1rem;
+      cursor: pointer;
+      color: rgb(0, 0, 0);
+      text-decoration: underline;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      gap: 1.5rem;
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    aside, section {
+      background: rgba(0, 0, 0, 0.889);
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 4px 8px rgba(170, 170, 170, 0.204);
+    }
+    aside h2, section h2 {
+      margin-top: 0;
+      color: #ffffff;
+      font-size: 1.25rem;
+      text-align: center;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.5rem;
+      text-shadow: 3px 3px 9px rgba(212, 210, 210, 0.7);
+    }
+    .skills .bar {
+      background: #eee;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 0.5rem;
+    }
+    .skills .bar-fill {
+      background: linear-gradient(90deg, #a55cff, #515151);
+      height: 10px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem;
+      margin-top: 2rem;
+      background: rgba(158, 155, 155, 0.9);
+      border-top: 1px solid #a2a2a2;
+    }
+    a {
+      color: #6366f1;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .hidden-section {
+      display: none;
+    }
+    .back-btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      background: #6366f1;
+      color: white;
+      cursor: pointer;
+    }
+    .back-btn:hover {
+      background: #4f46e5;
+    }
+     .profile-pic {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  .profile-pic img {
+    width: 220px; /* adjust size */
+    height: 220px;
+    border-radius: 50%; /* circular image */
+    border: 5px solid white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    object-fit: cover;
+  }
+
+  #VALUES{
+    text-align: center;
+  }
+
+ table {
+  margin: 50px auto;  
+  border-collapse: collapse;
+  width: 60%;
+  text-align: center;
+  border: 2px solid #333;
+}
+
+#underline{
+  text-decoration: underline;
+}
+
+  
+
+  </style>
+</head>
+<body>
+  <div class="profile-pic">
+  <img src="Gemini_Generated_Image_un4e85un4e85un4e.png" alt="Dasari Sai Sathvik">
+</div>
+  <header>
+    <h1>Dasari Sai Sathivk</h1>
+    <p>Frontend Developer | Student </p>
+    <p>Email: sathvik2977@gmail.com | Phone: +91 7702311049 | Location: Tirupati City, India</p>
+    <nav>
+      <a onclick="showSection('portfolio')">Portfolio</a>
+      <a onclick="showSection('grades')">Grades</a>
+      <a onclick="showSection('studydetails')">Study Details</a>
+      <a onclick="showSection('extras')">Extras</a>
+    </nav>
+  </header>
+  <main>
+    <aside>
+      <h2>About Me</h2>
+      <p id="VALUES">I am a third-year Engineering student at Mohan Babu University, specializing in Cyber Security.
+         With a strong foundation in programming, I am proficient in Python, Java, and C, which allows me to approach problem-solving with versatility and efficiency.
+         I am always eager to learn about innovations that shape the future of technology and security. 
+          I aim to combine my technical expertise with my curiosity for new advancements to contribute meaningfully in the field of Cyber Security.</p>
+      <h2>Skills</h2>
+      <div class="skills">
+        <div>Python</div>
+        <div class="bar"><div class="bar-fill" style="width:85%"></div></div>
+        <div>HTML</div>
+        <div class="bar"><div class="bar-fill" style="width:90%"></div></div>
+        <div>CSS</div>
+        <div class="bar"><div class="bar-fill" style="width:90%"></div></div>
+        <div>Java</div>
+        <div class="bar"><div class="bar-fill" style="width:70%"></div></div>
+        <div>DBMS</div>
+        <div class="bar"><div class="bar-fill" style="width:90%"></div></div>
+        <div>C</div>
+        <div class="bar"><div class="bar-fill" style="width:60%"></div></div>
+      </div>
+      <h2>Contact</h2>
+      <p><a href="mailto:sathvik2977@gmail.com" target="_blank">Email Me</a></p>
+      <p><a href="https://www.linkedin.com/in/dasari-sai-sathvik-909356343/" target="_blank">LinkedIn</a></p>
+      <p><a href="https://github.com/sathvik2185" target="_blank">GitHub</a></p>
+    </aside>
+    <section id="portfolio">
+      <h2>Education</h2>
+      <p><strong>-B.Tech Computer Science(Cyber Security)</strong>,<br> Mohan Babu University (2023 - Present)<br>CGPA: 8.9/10</p>
+      <p><strong>-High School (Class VI-XII)</strong>,<br> Sainik School Kalikiri (2016 - 2023)<br>Xth Percentage: 88%,XIIth Percentage: 80%</p>
+      <br><br>
+      <h2>Projects</h2>
+      <p><strong>-Restaurant Management System:</strong><br>A Python-based project designed to handle restaurant operations such as orders, billing, and menu management efficiently.</p>
+      <p><strong>-Railways Management System(Python) </strong><br>A Python application that streamlines ticket booking, passenger records, and scheduling for effective railway management.</p>
+       <p><strong>-Railways Management System(DBMS)</strong><br>A database-driven system built with SQL and DBMS concepts to manage train schedules, reservations, and customer data.</p> 
+       <p><strong>-Vehicle Count Prediction System</strong><br>A Machine Learning project that predicts and analyzes vehicle counts to support traffic management and urban planning.</p>
+       <br>
+       <br>
+      <h2>Experience</h2>
+      <p><strong>-Intern</strong> at VaultOfCodes (Jul 2025 - Aug 2025)</p>
+        <p>Solved and submitted assigned problems on the platform as part of internship tasks</p>
+    </section>
+    <section id="grades" class="hidden-section">
+      <h2>Grades</h2>
+      <strong id="underline">B-tech Grades:</strong>
+      <p>SEM-1</p>
+      <table border="1" cellpadding="6" cellspacing="0">
+        <tr><th>Subject</th><th>Grade</th></tr>
+        <tr><td>PROGRAMMING FOR PROBLEM SOLVING</td><td>A+</td></tr>
+        <tr><td>MATRIX THEORY AND LINEAR ALGEBRA</td><td>A+</td></tr>
+        <tr><td>BASIC ELECTRICAL AND ELECTRONICS ENGINEERING</td><td>B+</td></tr>
+        <tr><td>DISCRETE MATHEMATICAL STRUCTURES</td><td>A</td></tr>
+        <tr><td>COMPUTER HARDWARE AND SYSTEM ESSENTIALS</td><td>O</td></tr>
+        <tr><td>EMPOWERING YOUR ENGLISH</td><td>O</td></tr>
+      </table>
+      <br>
+      <p>SEM-2</p>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <tr><th>Subject</th><th>Grade</th></tr>
+        <tr><td>PROFESSIONAL ETHICS AND HUMAN VALUES</td><td>A+</td></tr>
+        <tr><td>DESIGN THINKING</td><td>O</td></tr>
+        <tr><td>PHYSICS FOR COMPUTINGs</td><td>B+</td></tr>
+        <tr><td>DIGITAL LOGIC DESIGN</td><td>O</td></tr>
+        <tr><td>SOFT SKILLS</td><td>O</td></tr>
+        <tr><td>OBJECT ORIENTED PROGRAMMING THROUGH JAVA</td><td>A+</td></tr>
+        <tr><td>CALCULUS AND TRANSFORMATION TECHNIQUES</td><td>A</td></tr>
+      </table>
+      <br>
+      <p>SEM-3</p>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <tr><th>Subject</th><th>Grade</th></tr>
+        <tr><td>NUMERICAL METHODS, PROBABLITY AND STATISTICS</td><td>A</td></tr>
+        <tr><td>PYTHON PROGRAMMING</td><td>A+</td></tr>
+        <tr><td>DATA STRUCTURES</td><td>A+</td></tr>
+        <tr><td>COMPUTER NETWORKS</td><td>A</td></tr>
+        <tr><td>PERSONALITY DEVELOPMENT</td><td>O</td></tr>
+      </table>
+      <br>
+      <p>SEM-4</p>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <tr><th>Subject</th><th>Grade</th></tr>
+        <tr><td>SOFTWARE ENGINEERING</td><td>A+</td></tr>
+        <tr><td>R PROGRAMMING</td><td>A</td></tr>
+        <tr><td>DATABASE MANAGEMENT SYSTEMS</td><td>A+</td></tr>
+        <tr><td>INTERNET OF THINGS</td><td>A</td></tr>
+        <tr><td>THEORY OF COMPUTATION</td><td>A</td></tr>
+      </table>
+      <br>
+      <strong id="underline">12th Grades:</strong>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <tr><th>Subject</th><th>Grade</th></tr>
+        <tr><td>ENGLISH CORE</td><td>B+</td></tr>
+        <tr><td>MATHEMATICS</td><td>B+</td></tr>
+        <tr><td>PHYSICS</td><td>B+</td></tr>
+        <tr><td>CHEMISRY</td><td>B+</td></tr>
+        <tr><td>COMPUTER SCIENCE</td><td>A+</td></tr>
+      </table>
+      <br>
+      <button class="back-btn" onclick="showSection('portfolio')">Back to Home</button>
+    </section>
+    <section id="studydetails" class="hidden-section">
+      <h2>Study Details</h2>
+      <p>-Currently pursuing <strong>B.Tech Computer Science(Cyber Securtiy)</strong> electives usually cover both core security domains and tech fields that complement security, Web Development, Machine Learning, and UI/UX Design.And i've a CGPA of 8.9</p>
+      <p>-Class 6th-12th <strong>Sainik School Kalikiri</strong> till 12th grade, the curriculum would be aligned with CBSE (Central Board of Secondary Education), and electives usually emphasis on Military Training, Discipline, NCC Training , Drill & Parade , Physiscs , Chemistry and Mathematics from Classes 6th to 12th. Passed-out With a Grade of 88% in 10th and 80% in 12th</p>
+      <button class="back-btn" onclick="showSection('portfolio')">Back to Home</button>
+    </section>
+    <section id="extras" class="hidden-section">
+      <h2>Extra Details</h2>
+      <p><strong>-Hobbies:</strong> Running, Playing, Traveling, Trekking</p>
+      <p><strong>-Languages Known:</strong> English, Hindi, Telugu</p>
+      <p><strong>-Academic clubs:</strong> Social Media Coordinator in College Club <strong>Techinical Association for Information and Technology(TAIT)</strong></p>
+
+      <button class="back-btn" onclick="showSection('portfolio')">Back to Home</button>
+    </section>
+  </main>
+  <footer>
+    Designed & Built by Dasari Sai Sathvik • Last updated <span id="date"></span>
+  </footer>
+  <script>
+    document.getElementById('date').textContent = new Date().toLocaleDateString();
+
+    function showSection(sectionId) {
+      const sections = document.querySelectorAll('main section');
+      sections.forEach(sec => sec.classList.add('hidden-section'));
+      document.getElementById(sectionId).classList.remove('hidden-section');
+    }
+  </script>
+</body>
+</html>
