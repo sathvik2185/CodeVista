@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Data</title>
+    <style>
+        body{
+            background-color: rgb(197, 199, 191);
+            text-align: center;
+        }
+        h2{
+            background-color: rgb(101, 61, 9);
+            color: aliceblue;
+            border-bottom: 10cm;
+            border-radius: 10cm;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        h1{
+            background-color: rgb(223, 191, 178);
+            text-align: center;
+            color: aliceblue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>My Bio Data</h1>
+    <h2>Personal Information</h2>
+    <p><strong>Name: </strong>Dasari Sai Sathvik</p>
+    <p><strong>Father Name: </strong>Ramamurthy</p>
+    <p><strong>Mother Name: </strong>Rajyalakshmi</p>
+    <p><Strong>College/University: </Strong>MBU</p>
+    <p><Strong>Branch: </Strong>Cyber Security</p>
+    <p><strong>Date-of-birth: </strong>21-08-2005</p>
+    <p><Strong>Gender: </Strong>Male</p>
+    <p><strong>Nationality: </strong>Indian</p>
+    <h2>Contact Information</h2>
+    <p><strong>Contact Number: </strong>9866890XXX</p>
+    <p><strong>Adddress: </strong>Kurnool</p>
+    <p><strong>Email Id: </strong>sathvik@gmail.com</p>
+    <h2>Education Qualification</h2>
+    <p><Strong>SSC: </Strong>ZPHS Timmareddipalli</p>
+    <p><Strong>10th Marks(%): </Strong>95%</p>
+    <p><strong>Intermediate: </strong>Sri Saraswathi jr college, Kurnool</p>
+    <p><Strong>12th Marks(%): </Strong>97%</p>
+    <p><strong>Graduation: </strong>3rd Year in Mohan Babu University </p>
+    <P><strong>BATCH: </strong>2023-2027</P>
+    <p><strong>CGPA: </strong>8.9</p>
+</body>
+</html>
