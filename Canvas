@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Canvas Shapes & Text</title>
+</head>
+<body>
+<canvas id="myCanvas" width="500" height="350" style="border:1px solid black;"></canvas>
+
+<script>
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+
+  ctx.beginPath();
+  ctx.arc(80, 70, 40, 0, 2 * Math.PI);
+  ctx.stroke();
+
+  ctx.beginPath();
+  ctx.moveTo(200, 40);
+  ctx.lineTo(160, 110);
+  ctx.lineTo(240, 110);
+  ctx.closePath();
+  ctx.fill();
+
+  ctx.beginPath();
+  ctx.rect(280, 40, 80, 80);
+  ctx.stroke();
+
+  ctx.beginPath();
+  ctx.rect(280, 150, 120, 60);
+  ctx.stroke();
+
+  ctx.font = "30px Arial";
+  ctx.strokeText("Hello", 80, 250);
+
+</script>
+</body>
+</html>
