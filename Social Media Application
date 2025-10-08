@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Application</title>
+    <style>
+        h1{
+            text-align: center;
+            color: rgb(31, 25, 20);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: antiquewhite;
+        }
+        h2{
+            color: rgb(189, 207, 29);
+            background-color: rgb(194, 97, 183);
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body style="background-color: rgb(176, 129, 82);">
+    <h1>Social Media Applications</h1>
+    <div class="content">
+    <h2>Content Creation</h2>
+    <ul>
+        <li>Instagram</li>
+        <li>YouTube</li>
+        <li>Whop</li>
+        <li>Tiktok</li>
+        <li>X</li>
+        <li>Facebook</li>
+    </ul>
+    </div>
+    <div class="Communication">
+        <h2>Communication</h2>
+    <ul>
+        <li>whats App</li>
+        <li>Messenger</li>
+        <li>Telegram</li>
+        <li>facebook</li>
+        <li>X</li>
+    </ul>
+    </div>
+        <div class="Eduaction">
+        <h2>Eduaction Sites</h2>
+    <ul>
+        <li>Coursera</li>
+        <li>Udemy</li>
+        <li>Youtube</li>
+        <li>Scalar</li>
+        <li>FreecodeCamp</li>
+    </ul>
+    </div>
+        </div>
+        <div class="Community">
+        <h2>Community Apps</h2>
+    <ul>
+        <li>Reddit</li>
+        <li>Quora</li>
+        <li>Discord</li>
+    </ul>
+    </div>
+
+</body>
+</html>
