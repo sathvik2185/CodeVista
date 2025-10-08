@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Development</title>
+</head>
+<body>
+    <h1 >Welcome To Learning full Stack Development</h1>
+    <p>Full Stack Development refers to the process of developing both the front-end (client side) and back-end (server side) parts of a web application or website.</p>
+    <h3>Key Components of Full Stack Development</h3>
+    <ul>
+        <li>Front-End</li>
+        <li>Back-End</li>
+        <li>DataBase</li>
+    </ul>
+    <h2 >Front-End</h2>
+    <h3>Languages Used in Front-End</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <h4>Key Features</h4>
+    <ol>
+        <li>User Interface(UI)</li>
+        <li>Responsiveness</li>
+        <li>Performance</li>
+    </ol>
+    <h4>Popular Front-End Libraries</h4>
+    <ul>
+        <li>React.js</li>
+        <li>Angular</li>
+        <li>Bootstrap</li>
+    </ul>
+    <h2>Back-End</h2>
+    <h3>Technologies Used in Back-End</h3>
+    <ul>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>Python & Java</li>
+        <li>PHP</li>
+        <li>Ruby</li>
+    </ul>
+    <h4>Key Functions</h4>
+    <ol>
+        <li>Business Logic</li>
+        <li>Database Operations</li>
+        <li>User Authentication</li>
+        <li>API Handling</li>
+        <li>Security</li>
+    </ol>
+    <h4>Popular Front-End Libraries</h4>
+    <ul>
+        <li>React.js</li>
+        <li>Angular</li>
+        <li>Bootstrap</li>
+    </ul>
+</body>
+</html>
