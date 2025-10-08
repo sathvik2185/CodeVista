@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASS TimeTable</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        h1{
+            color: red;
+            text-align: center;
+            margin-bottom: auto;
+        }
+        h2{
+            margin-bottom: auto;
+        }
+        h3{
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        h4{
+            margin-top: 0;
+        }
+        p{
+            margin: auto;
+        }
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 60%;
+            height: 400px;
+            text-align: center;
+            margin: auto;
+        }
+        th{
+            border: 1px solid black;
+            text-align: center;
+            background-color: rgb(66, 72, 111);
+        }
+        td{
+            border: 1px solid black;
+        }
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-right: 140px;
+            margin-bottom: 0;
+        }
+        header img{
+            margin-top: 15px;
+            height: 60px;
+            margin-bottom: 0;
+        }
+   
+    </style>
+</head>
+<body>
+    <header>
+        <img src="mbuu.png" alt="MBU">
+    <h1>MOHAN BABU UNIVERSITY</h1>
+    </header>
+    <p>Sree Sainath Nagar, A. Rangampet - 517102</p>
+    <h2>SCHOOL OF COMPUTING</h2>
+    <h3><u>DEPARTMENT OF DATA SCIENCE</u></h3>
+    <h3><u>CLASS WORK TIME TABLE (2025 - 2026)</u></h3>
+    <h4>V Semester (CS - 2)</h4>
+    <table>
+        <tr>
+            <th>DAY/HR</th>
+            <th>11:10AM TO 12:05PM</th>
+            <th>12:05PM TO 01:00PM</th>
+            <th>01:00PM TO 02:15PM</th>
+            <th>02:15PM TO 03:10PM</th>
+            <th>03:10PM TO 04:05PM</th>
+            <th>04:05PM TO 04:15PM</th>
+            <th>04:15PM TO 05:10PM</th>
+            <th>05:10PM TO 06:15PM</th>
+        </tr>
+         <tr>
+            <th>MON</th>
+            <td colspan="2">QAVA</td>
+            <th rowspan="5">LUNCH BREAK</th>
+            <td colspan="2">ML LAB</th>
+            <th rowspan="5">BREAK</th>
+            <td>SSE(MOOC)</th>
+            <td>LIB</th>
+        </tr>
+          <tr>
+            <th>TUE</th>
+            <td colspan="2">QAVA</th>
+            <td colspan="2">CP ROOM No. 1810</th>
+            <td>WT</th>
+            <td>CAD(MOOC)</th>
+        </tr>
+           <tr>
+            <th>WED</th>
+            <td>CSE</th>
+            <td>WT</th>
+            <td colspan="2">WT LAB</th>
+            <td>SSE(MOOC)</th>
+            <td>CAD(MOOC)</th>
+        </tr>
+           <tr>
+            <th>THU</th>
+            <td colspan="2">CP ROOM No. 1810</th>
+            <td>CSE</th>
+            <td>ML</th>
+            <td>CAD(MOOC)</th>
+            <td>LIB</th>
+        </tr>
+        <tr>
+            <th>FRI</th>
+            <td>WT</th>
+            <td>ML</th>
+            <td>CSE</th>
+            <td>ML</th>
+            <td colspan="2">CP ROOM No. 1810</th>
+        </tr>
+    </table>
+</body>
+</html>
