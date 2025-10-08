@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Movies Survey</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: beige;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 700px;
+      margin: 20px auto;
+      background: #34392198;
+      padding: 20px;
+      border-radius: 6px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+    h1 {
+      color: rgb(0, 0, 0);
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    label {
+      display: block;
+      margin: 10px 0 4px;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 7px;
+      margin-bottom: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    #pname{
+        color: rgb(0, 0, 0);
+        font-size: medium;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .choices label {
+      display: block;
+      margin: 4px 0;
+    }
+    button {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .submit {
+      background: #28a745;
+      color: #fff;
+    }
+    .reset {
+      background: #dc3545;
+      color: #fff;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Movie Survey</h1>
+    <p style="text-align:center; color: rgb(0, 0, 0);">Lets start Movie Survey</p>
+
+    <form>
+      <label for="name" id="pname">Enter Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Name" required>
+
+      <label for="genre" id="pname">Favourite Movie Genre?</label>
+      <select id="genre" name="genre">
+        <option value="">Select</option>
+        <option>Action</option>
+        <option>Comedy</option>
+        <option>Drama</option>
+        <option>Romance</option>
+        <option>Horror</option>
+        <option>Science Fiction</option>
+        <option>Animated</option>
+      </select>
+
+      <label for="favDirector" id="pname">Who is your favorite Director?</label>
+      <input type="text" id="favDirector" name="favDirector" placeholder="e.g. Rajamouli">
+
+      <label for="favActor" id="pname">Who is your favorite Actor?</label>
+      <input list="actors" id="favActor" name="favActor" placeholder="Others?">
+      <datalist id="actors">
+        <option value="Prabhas">
+        <option value="Mahesh Babu">
+        <option value="Pawan Kalyan">
+        <option value="NTR">
+        <option value="Ram Charan">
+      </datalist>
+
+      <label for="favMusic" id="pname">Favourite Music Director?</label>
+      <select id="favMusic" name="favMusic">
+        <option>Select One</option>
+        <option>Thaman</option>
+        <option>Mani Shanker</option>
+        <option>Anirudh Ravichander</option>
+        <option>Devi Sri Prasad</option>
+        <option>Hari Jayaraj</option>
+      </select>
+
+      <label id="pname">Do you prefer watching movies alone or with others?</label>
+      <div class="choices">
+        <label><input type="radio" name="company" value="alone"> Alone</label>
+        <label><input type="radio" name="company" value="friends"> With Friends</label>
+        <label><input type="radio" name="company" value="family"> With Family</label>
+      </div>
+
+      <label id="pname">Which devices do you usually watch on?</label>
+      <div class="choices">
+        <label><input type="checkbox" name="device" value="cinema"> Cinema Hall</label>
+        <label><input type="checkbox" name="device" value="tv"> Television</label>
+        <label><input type="checkbox" name="device" value="mobile"> Mobile Phone</label>
+        <label><input type="checkbox" name="device" value="laptop"> Laptop</label>
+      </div>
+
+      <label for="hours" id="pname">On average, how many hours a week do you spend on movies?</label>
+      <input type="number" id="hours" name="hours" min="0" max="40" >
+
+      <label for="rating" id="pname">How much do you like movies? (1-10)</label>
+      <input type="range" id="rating" name="rating" min="1" max="10">
+
+      <label for="favmovie" id="pname">What’s your all-time favorite movie?</label>
+      <input type="text" id="favmovie" name="favmovie" placeholder="Like Salaar, Billa, Saaho etc..">
+
+      <label for="recent" id="pname">What’s the last movie you watched?</label>
+      <input type="text" id="recent" name="recent" placeholder="Example: F1">
+
+      <label for="suggestions" id="pname">Any suggestions or movie recommendations?</label>
+      <textarea id="suggestions" name="suggestions" rows="3" placeholder="Write here"></textarea>
+
+      <div>
+        <button type="reset" class="reset">Clear</button>
+        <button type="submit" class="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
